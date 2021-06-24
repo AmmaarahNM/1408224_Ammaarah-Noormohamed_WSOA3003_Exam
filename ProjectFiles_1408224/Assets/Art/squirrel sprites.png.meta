@@ -1,0 +1,1726 @@
+fileFormatVersion: 2
+guid: 8b0a3745272cef2409371ac3f18757e4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3724471143558324294
+    second: squirrel_3
+  - first:
+      213: -7100707196989781485
+    second: squirrel_run4
+  - first:
+      213: 4646289937381033925
+    second: squirrel_run5
+  - first:
+      213: 4925687299441253630
+    second: squirrel_run6
+  - first:
+      213: 862917173666561742
+    second: squirrel_idle
+  - first:
+      213: 8246626229014601041
+    second: squirrel_jump1
+  - first:
+      213: -1267173234282314463
+    second: squirrel_run1
+  - first:
+      213: -5025091674650244688
+    second: squirrel_run2
+  - first:
+      213: -6140786243372817992
+    second: squirrel sprites_8
+  - first:
+      213: -8378057098145113598
+    second: squirrel sprites_9
+  - first:
+      213: 6190933775977283761
+    second: squirrel sprites_10
+  - first:
+      213: -3619406177642228820
+    second: squirrel sprites_11
+  - first:
+      213: 447247244492155507
+    second: squirrel sprites_12
+  - first:
+      213: 8865594369940672634
+    second: squirrel sprites_13
+  - first:
+      213: -2828218025120587119
+    second: squirrel sprites_14
+  - first:
+      213: -7279214122770624143
+    second: squirrel sprites_15
+  - first:
+      213: 7996691128319189027
+    second: squirrel sprites_16
+  - first:
+      213: 2327891155864454328
+    second: squirrel sprites_17
+  - first:
+      213: -5342289710455784950
+    second: squirrel sprites_18
+  - first:
+      213: 5431953635543077086
+    second: squirrel sprites_19
+  - first:
+      213: -7188571381910688107
+    second: squirrel sprites_20
+  - first:
+      213: 5779132724154686919
+    second: squirrel sprites_21
+  - first:
+      213: 7833471670847500785
+    second: squirrel sprites_22
+  - first:
+      213: 4580473493547945066
+    second: squirrel sprites_23
+  - first:
+      213: -4090997670737842969
+    second: squirrel sprites_24
+  - first:
+      213: -9093567194678070481
+    second: squirrel sprites_25
+  - first:
+      213: -1516511372131432293
+    second: squirrel sprites_26
+  - first:
+      213: 6651144116914458614
+    second: squirrel sprites_27
+  - first:
+      213: -7270180996003078022
+    second: squirrel sprites_28
+  - first:
+      213: 3447223326490160827
+    second: squirrel sprites_29
+  - first:
+      213: 73750985505585059
+    second: squirrel sprites_30
+  - first:
+      213: 7450219393851840274
+    second: squirrel sprites_31
+  - first:
+      213: 4289878865467583039
+    second: squirrel sprites_32
+  - first:
+      213: -7282652380153000571
+    second: squirrel sprites_33
+  - first:
+      213: 9143754029155318423
+    second: squirrel sprites_34
+  - first:
+      213: -6589308170990898798
+    second: squirrel sprites_35
+  - first:
+      213: -8365055191743808355
+    second: squirrel sprites_36
+  - first:
+      213: 5727192324480539761
+    second: squirrel sprites_37
+  - first:
+      213: 8842420648628847825
+    second: squirrel sprites_38
+  - first:
+      213: 7653493311893211516
+    second: squirrel sprites_39
+  - first:
+      213: 8499123282937681459
+    second: squirrel sprites_40
+  - first:
+      213: 6092759901469602018
+    second: squirrel sprites_41
+  - first:
+      213: -8499374555171466809
+    second: squirrel sprites_42
+  - first:
+      213: -7660909924718242935
+    second: squirrel sprites_43
+  - first:
+      213: -3647293357421651455
+    second: squirrel sprites_44
+  - first:
+      213: 322449105922320466
+    second: squirrel sprites_45
+  - first:
+      213: -4597430911572108856
+    second: squirrel sprites_46
+  - first:
+      213: -7029583750645605918
+    second: squirrel sprites_47
+  - first:
+      213: -3807548369842178402
+    second: squirrel sprites_48
+  - first:
+      213: -3690317576391748296
+    second: squirrel sprites_49
+  - first:
+      213: -3403060927675982403
+    second: squirrel sprites_50
+  - first:
+      213: 5842341185457649241
+    second: squirrel sprites_51
+  - first:
+      213: 1784109274419150826
+    second: squirrel sprites_52
+  - first:
+      213: -5048505425864864577
+    second: squirrel sprites_53
+  - first:
+      213: -1921951273104235523
+    second: squirrel sprites_54
+  - first:
+      213: 1968978545985043724
+    second: squirrel sprites_55
+  - first:
+      213: -621833433551776309
+    second: squirrel sprites_56
+  - first:
+      213: 7657672162600305516
+    second: squirrel sprites_57
+  - first:
+      213: 8611027376402864903
+    second: squirrel sprites_58
+  - first:
+      213: 1156394561451540763
+    second: squirrel sprites_59
+  - first:
+      213: 7016675222844788465
+    second: squirrel sprites_60
+  - first:
+      213: 4470839295509758979
+    second: squirrel sprites_61
+  - first:
+      213: -3422777453290566359
+    second: squirrel sprites_62
+  - first:
+      213: 3161023246899951763
+    second: squirrel sprites_63
+  - first:
+      213: -7164345743337322570
+    second: squirrel sprites_64
+  - first:
+      213: 4698199195726920507
+    second: squirrel sprites_65
+  - first:
+      213: 2624764281787668615
+    second: squirrel sprites_66
+  - first:
+      213: 4247628173114098468
+    second: squirrel sprites_67
+  - first:
+      213: 6978159145802088860
+    second: squirrel sprites_68
+  - first:
+      213: -536203720080339572
+    second: squirrel sprites_69
+  - first:
+      213: 8874090472095802691
+    second: squirrel sprites_70
+  - first:
+      213: -1266277130536640670
+    second: squirrel sprites_71
+  - first:
+      213: 8755336282324603605
+    second: squirrel sprites_72
+  - first:
+      213: 5389531423271636595
+    second: squirrel sprites_73
+  - first:
+      213: -7539553111656989551
+    second: squirrel sprites_74
+  - first:
+      213: -3084692703929639697
+    second: squirrel sprites_75
+  - first:
+      213: -3332387706508816466
+    second: squirrel sprites_76
+  - first:
+      213: -5223291653963597141
+    second: squirrel sprites_77
+  - first:
+      213: 5103044044792475999
+    second: squirrel sprites_78
+  - first:
+      213: -4645503316684934023
+    second: squirrel sprites_79
+  - first:
+      213: 2662021632608742961
+    second: squirrel sprites_80
+  - first:
+      213: -2449822887531139671
+    second: squirrel sprites_81
+  - first:
+      213: 2717143744872283322
+    second: squirrel sprites_82
+  - first:
+      213: -8647110383033569380
+    second: squirrel sprites_83
+  - first:
+      213: -5675982733636005783
+    second: squirrel sprites_84
+  - first:
+      213: -3430933644285796395
+    second: squirrel sprites_85
+  - first:
+      213: 9081060233996175070
+    second: squirrel sprites_86
+  - first:
+      213: 3689875171087289772
+    second: squirrel sprites_87
+  - first:
+      213: -5022998433523805382
+    second: squirrel sprites_88
+  - first:
+      213: -4789899367143676477
+    second: squirrel sprites_89
+  - first:
+      213: 6906432092227730115
+    second: squirrel sprites_90
+  - first:
+      213: 2437420569940251962
+    second: squirrel sprites_91
+  - first:
+      213: 8942825334987800397
+    second: squirrel sprites_92
+  - first:
+      213: -2963444993529985778
+    second: squirrel sprites_93
+  - first:
+      213: 174974610428055268
+    second: squirrel sprites_94
+  - first:
+      213: -910463136784187227
+    second: squirrel sprites_95
+  - first:
+      213: 5251481930856308154
+    second: squirrel sprites_96
+  - first:
+      213: -2815070120565500086
+    second: squirrel sprites_97
+  - first:
+      213: -4500108311993184403
+    second: squirrel sprites_98
+  - first:
+      213: 323190477860876769
+    second: squirrel sprites_99
+  - first:
+      213: -1029379319080954797
+    second: squirrel sprites_100
+  - first:
+      213: 9024435746965116458
+    second: squirrel sprites_101
+  - first:
+      213: 7846804243504702077
+    second: squirrel sprites_102
+  - first:
+      213: -5108799421728518656
+    second: squirrel sprites_103
+  - first:
+      213: 8564977519652600166
+    second: squirrel sprites_104
+  - first:
+      213: 1085572714121570886
+    second: squirrel sprites_105
+  - first:
+      213: -413875877322461805
+    second: squirrel sprites_106
+  - first:
+      213: 5687220353469488273
+    second: squirrel sprites_107
+  - first:
+      213: -8977120727695483257
+    second: squirrel sprites_108
+  - first:
+      213: -427678715233707199
+    second: squirrel sprites_109
+  - first:
+      213: -3523044165465140018
+    second: squirrel sprites_110
+  - first:
+      213: 3536671863445116165
+    second: squirrel sprites_111
+  - first:
+      213: -2310950915958796408
+    second: squirrel sprites_112
+  - first:
+      213: 7521221127556045208
+    second: squirrel sprites_113
+  - first:
+      213: -5035234056647977782
+    second: squirrel sprites_114
+  - first:
+      213: -2060660310783480951
+    second: squirrel sprites_115
+  - first:
+      213: 7785689462399175835
+    second: squirrel sprites_116
+  - first:
+      213: -8758734244766602374
+    second: squirrel sprites_117
+  - first:
+      213: 7870325628165127870
+    second: squirrel sprites_118
+  - first:
+      213: 111662872687512856
+    second: squirrel sprites_119
+  - first:
+      213: -668056716412817728
+    second: squirrel sprites_120
+  - first:
+      213: 3655086531283470976
+    second: squirrel sprites_121
+  - first:
+      213: -107833173692919516
+    second: squirrel sprites_122
+  - first:
+      213: 3505789482009117821
+    second: squirrel sprites_123
+  - first:
+      213: -7523245439658055679
+    second: squirrel sprites_124
+  - first:
+      213: 772038250751214324
+    second: squirrel sprites_125
+  - first:
+      213: 7061364698233406664
+    second: squirrel sprites_126
+  - first:
+      213: 1566715068023078310
+    second: squirrel sprites_127
+  - first:
+      213: 8669497887936458882
+    second: squirrel sprites_128
+  - first:
+      213: 3449521706780567387
+    second: squirrel sprites_129
+  - first:
+      213: 4499678159852280652
+    second: squirrel sprites_130
+  - first:
+      213: -5957875153311274992
+    second: squirrel sprites_131
+  - first:
+      213: -6370499027358567157
+    second: squirrel sprites_132
+  - first:
+      213: 4682328003005520650
+    second: squirrel sprites_133
+  - first:
+      213: 2645150313326293668
+    second: squirrel sprites_134
+  - first:
+      213: -7349480405933036418
+    second: squirrel sprites_135
+  - first:
+      213: 5204621336108942892
+    second: squirrel sprites_136
+  - first:
+      213: 781702235968644972
+    second: squirrel sprites_137
+  - first:
+      213: -8556865527749022018
+    second: squirrel sprites_138
+  - first:
+      213: -3796379232642523029
+    second: squirrel sprites_139
+  - first:
+      213: -2881494583044604956
+    second: squirrel sprites_140
+  - first:
+      213: -3347105674324364659
+    second: squirrel sprites_141
+  - first:
+      213: -4600497885860447050
+    second: squirrel sprites_142
+  - first:
+      213: 1695594192133955090
+    second: squirrel sprites_143
+  - first:
+      213: 7375766671787684018
+    second: squirrel sprites_144
+  - first:
+      213: -3166126662597737027
+    second: squirrel sprites_145
+  - first:
+      213: -6000619171834944994
+    second: squirrel sprites_146
+  - first:
+      213: 6320482034599929761
+    second: squirrel sprites_147
+  - first:
+      213: -5517010230475405503
+    second: squirrel sprites_148
+  - first:
+      213: 3175726409429447592
+    second: squirrel sprites_149
+  - first:
+      213: 8389800442394791105
+    second: squirrel sprites_150
+  - first:
+      213: 2161831325436869877
+    second: squirrel sprites_151
+  - first:
+      213: -8549396917117211752
+    second: squirrel sprites_152
+  - first:
+      213: 6307931978918747330
+    second: squirrel sprites_153
+  - first:
+      213: 5430980394089810738
+    second: squirrel sprites_154
+  - first:
+      213: 682396003110013390
+    second: squirrel sprites_155
+  - first:
+      213: 6240230561330860282
+    second: squirrel sprites_156
+  - first:
+      213: 1108330134511278243
+    second: squirrel sprites_157
+  - first:
+      213: 773872171332082037
+    second: squirrel sprites_158
+  - first:
+      213: 3659801103995671929
+    second: squirrel sprites_159
+  - first:
+      213: -7950391201293843994
+    second: squirrel sprites_160
+  - first:
+      213: 3025189307661612738
+    second: squirrel sprites_161
+  - first:
+      213: -6158642463554717252
+    second: squirrel sprites_162
+  - first:
+      213: -8117058223791957641
+    second: squirrel sprites_163
+  - first:
+      213: 7023316962625590340
+    second: squirrel sprites_164
+  - first:
+      213: 6626874396602991917
+    second: squirrel sprites_165
+  - first:
+      213: 4184706120695570268
+    second: squirrel sprites_166
+  - first:
+      213: 7523013489142028715
+    second: squirrel sprites_167
+  - first:
+      213: 2174800733486800979
+    second: squirrel sprites_168
+  - first:
+      213: -1393304449024003792
+    second: squirrel sprites_169
+  - first:
+      213: -5596109160901147317
+    second: squirrel sprites_170
+  - first:
+      213: 306391602627175752
+    second: squirrel sprites_171
+  - first:
+      213: 3222908747770937323
+    second: squirrel sprites_172
+  - first:
+      213: 3378022990785169578
+    second: squirrel sprites_173
+  - first:
+      213: 1585780067187751336
+    second: squirrel sprites_174
+  - first:
+      213: 7616282420713315879
+    second: squirrel sprites_175
+  - first:
+      213: -5044688705268070356
+    second: squirrel sprites_176
+  - first:
+      213: 4944314400774365728
+    second: squirrel sprites_177
+  - first:
+      213: 355231853563307967
+    second: squirrel sprites_178
+  - first:
+      213: -7753867607888127703
+    second: squirrel sprites_179
+  - first:
+      213: 6863187952208003937
+    second: squirrel sprites_180
+  - first:
+      213: 2725158816748841901
+    second: squirrel sprites_181
+  - first:
+      213: 3733875119319049570
+    second: squirrel sprites_182
+  - first:
+      213: 6624301515160971497
+    second: squirrel sprites_183
+  - first:
+      213: -993007780565811327
+    second: squirrel sprites_184
+  - first:
+      213: 4646155156036254216
+    second: squirrel sprites_185
+  - first:
+      213: 4968334111329534787
+    second: squirrel sprites_186
+  - first:
+      213: -295134563355268077
+    second: squirrel sprites_187
+  - first:
+      213: -4118435841454820059
+    second: squirrel sprites_188
+  - first:
+      213: -1278838759897534415
+    second: squirrel sprites_189
+  - first:
+      213: -917299127283597223
+    second: squirrel sprites_190
+  - first:
+      213: -593334787425188510
+    second: squirrel sprites_191
+  - first:
+      213: 3356257132370392769
+    second: squirrel sprites_192
+  - first:
+      213: -8258962507722550764
+    second: squirrel sprites_193
+  - first:
+      213: -5900018419338670984
+    second: squirrel sprites_194
+  - first:
+      213: -3450666182922220747
+    second: squirrel sprites_195
+  - first:
+      213: 399000272650511149
+    second: squirrel sprites_196
+  - first:
+      213: 60639444278397168
+    second: squirrel sprites_197
+  - first:
+      213: -6757125737397998342
+    second: squirrel sprites_198
+  - first:
+      213: -543093759700156341
+    second: squirrel sprites_199
+  - first:
+      213: 6634671428639481527
+    second: squirrel sprites_200
+  - first:
+      213: 768135679300439461
+    second: squirrel sprites_201
+  - first:
+      213: -7366870108157090847
+    second: squirrel sprites_202
+  - first:
+      213: -1627636570063675317
+    second: squirrel sprites_203
+  - first:
+      213: -8706377994764187142
+    second: squirrel sprites_204
+  - first:
+      213: -2546097608828813402
+    second: squirrel sprites_205
+  - first:
+      213: -8525668674269183248
+    second: squirrel sprites_206
+  - first:
+      213: 2561832257006923575
+    second: squirrel sprites_207
+  - first:
+      213: -173750299567478336
+    second: squirrel sprites_208
+  - first:
+      213: 2088546818737321352
+    second: squirrel sprites_209
+  - first:
+      213: 4385533929956359140
+    second: squirrel sprites_210
+  - first:
+      213: -1678911160124836486
+    second: squirrel sprites_211
+  - first:
+      213: -1546373659355597664
+    second: squirrel sprites_212
+  - first:
+      213: -6810480392414909123
+    second: squirrel sprites_213
+  - first:
+      213: -5221946601412244397
+    second: squirrel sprites_214
+  - first:
+      213: 73234773461264459
+    second: squirrel sprites_215
+  - first:
+      213: 3625847315403743958
+    second: squirrel sprites_216
+  - first:
+      213: 4242798274908876854
+    second: squirrel sprites_217
+  - first:
+      213: 2219316993012826034
+    second: squirrel sprites_218
+  - first:
+      213: 870162095647151227
+    second: squirrel sprites_219
+  - first:
+      213: 3307335058374934259
+    second: squirrel sprites_220
+  - first:
+      213: 1807347820779680203
+    second: squirrel sprites_221
+  - first:
+      213: -5570787262982140504
+    second: squirrel sprites_222
+  - first:
+      213: 2142566569615820316
+    second: squirrel sprites_223
+  - first:
+      213: 8243264994069579867
+    second: squirrel sprites_224
+  - first:
+      213: 6218520110034485800
+    second: squirrel sprites_225
+  - first:
+      213: 7332487959195849037
+    second: squirrel sprites_226
+  - first:
+      213: 7408120386290718229
+    second: squirrel sprites_227
+  - first:
+      213: -1618211664008174512
+    second: squirrel sprites_228
+  - first:
+      213: 278143125153897374
+    second: squirrel sprites_229
+  - first:
+      213: -5279086870991327380
+    second: squirrel sprites_230
+  - first:
+      213: -3003450818869497772
+    second: squirrel sprites_231
+  - first:
+      213: -7513336791600503488
+    second: squirrel sprites_232
+  - first:
+      213: 8562246150668266773
+    second: squirrel sprites_233
+  - first:
+      213: 4509850119290623386
+    second: squirrel sprites_234
+  - first:
+      213: -1071375095345971107
+    second: squirrel sprites_235
+  - first:
+      213: 4896225413863263987
+    second: squirrel sprites_236
+  - first:
+      213: 1749062446934537010
+    second: squirrel sprites_237
+  - first:
+      213: 5981264521797212412
+    second: squirrel sprites_238
+  - first:
+      213: -2377085634750476386
+    second: squirrel sprites_239
+  - first:
+      213: -2672382425494892796
+    second: squirrel sprites_240
+  - first:
+      213: -4643343379885814266
+    second: squirrel sprites_241
+  - first:
+      213: -8697208120086526877
+    second: squirrel sprites_242
+  - first:
+      213: -4894018005115544906
+    second: squirrel sprites_243
+  - first:
+      213: -4107768327524937996
+    second: squirrel sprites_244
+  - first:
+      213: -960096101672629141
+    second: squirrel sprites_245
+  - first:
+      213: -1109196099422724801
+    second: squirrel sprites_246
+  - first:
+      213: 3438576172459425508
+    second: squirrel sprites_247
+  - first:
+      213: 2380718230444935673
+    second: squirrel sprites_248
+  - first:
+      213: -249588871966230076
+    second: squirrel sprites_249
+  - first:
+      213: -8243229687793639534
+    second: squirrel sprites_250
+  - first:
+      213: -137399399387561527
+    second: squirrel sprites_251
+  - first:
+      213: 2486725265221067676
+    second: squirrel sprites_252
+  - first:
+      213: 3233261094286024471
+    second: squirrel sprites_253
+  - first:
+      213: -378736216937905243
+    second: squirrel sprites_254
+  - first:
+      213: -8823354212558173567
+    second: squirrel sprites_255
+  - first:
+      213: -7145442695924913506
+    second: squirrel sprites_256
+  - first:
+      213: 3252192908563971927
+    second: squirrel sprites_257
+  - first:
+      213: 4834822285408563990
+    second: squirrel sprites_258
+  - first:
+      213: -745762202102373048
+    second: squirrel sprites_259
+  - first:
+      213: -2930624676998647586
+    second: squirrel sprites_260
+  - first:
+      213: -8118421359325218177
+    second: squirrel sprites_261
+  - first:
+      213: -7604935516668407354
+    second: squirrel sprites_262
+  - first:
+      213: 8391430062871314134
+    second: squirrel sprites_263
+  - first:
+      213: 1721816073090611018
+    second: squirrel sprites_264
+  - first:
+      213: 5958597927385034705
+    second: squirrel sprites_265
+  - first:
+      213: -6198484619379515549
+    second: squirrel sprites_266
+  - first:
+      213: 6267543561996136987
+    second: squirrel sprites_267
+  - first:
+      213: 1604465122353571283
+    second: squirrel sprites_268
+  - first:
+      213: -6647247747611721178
+    second: squirrel sprites_269
+  - first:
+      213: 7738642847932255980
+    second: squirrel sprites_270
+  - first:
+      213: 7933113404021646904
+    second: squirrel sprites_271
+  - first:
+      213: 410859319662854124
+    second: squirrel sprites_272
+  - first:
+      213: 8486828451844799971
+    second: squirrel sprites_273
+  - first:
+      213: 6577458514460037468
+    second: squirrel sprites_274
+  - first:
+      213: 9140065837000356002
+    second: squirrel sprites_275
+  - first:
+      213: -4677281687790665647
+    second: squirrel sprites_276
+  - first:
+      213: 3270789106611825830
+    second: squirrel sprites_277
+  - first:
+      213: 1248633876554760535
+    second: squirrel sprites_278
+  - first:
+      213: 1680969564411858969
+    second: squirrel sprites_279
+  - first:
+      213: 8309499982377946703
+    second: squirrel sprites_280
+  - first:
+      213: 6830058939566359194
+    second: squirrel sprites_281
+  - first:
+      213: 7286269792457052664
+    second: squirrel sprites_282
+  - first:
+      213: 4266209665103558712
+    second: squirrel sprites_283
+  - first:
+      213: 6829584415952483399
+    second: squirrel sprites_284
+  - first:
+      213: 7411063453158052220
+    second: squirrel sprites_285
+  - first:
+      213: 5977181894413093480
+    second: squirrel sprites_286
+  - first:
+      213: -5831667410905880531
+    second: squirrel sprites_287
+  - first:
+      213: -59472810383228635
+    second: squirrel sprites_288
+  - first:
+      213: -366331348986299138
+    second: squirrel sprites_289
+  - first:
+      213: -2277204573201126174
+    second: squirrel sprites_290
+  - first:
+      213: 5858635816543845795
+    second: squirrel sprites_291
+  - first:
+      213: -955974665380872308
+    second: squirrel sprites_292
+  - first:
+      213: 5039167748813853460
+    second: squirrel sprites_293
+  - first:
+      213: -2953378582636104641
+    second: squirrel sprites_294
+  - first:
+      213: -8523643840853729931
+    second: squirrel sprites_295
+  - first:
+      213: -1443933309083416706
+    second: squirrel sprites_296
+  - first:
+      213: 6808448741456452049
+    second: squirrel sprites_297
+  - first:
+      213: 7006008730548043941
+    second: squirrel sprites_298
+  - first:
+      213: -4308653060062805690
+    second: squirrel sprites_299
+  - first:
+      213: 7477889317825627239
+    second: squirrel sprites_300
+  - first:
+      213: -2607345678029392630
+    second: squirrel sprites_301
+  - first:
+      213: -7991054291152366765
+    second: squirrel sprites_302
+  - first:
+      213: -4813104691461636616
+    second: squirrel sprites_303
+  - first:
+      213: 9075120638849753220
+    second: squirrel sprites_304
+  - first:
+      213: 3908526366184543848
+    second: squirrel sprites_305
+  - first:
+      213: 3346684795227221039
+    second: squirrel sprites_306
+  - first:
+      213: 42996540448969880
+    second: squirrel sprites_307
+  - first:
+      213: 5555065651370812374
+    second: squirrel sprites_308
+  - first:
+      213: 9025944689035345670
+    second: squirrel sprites_309
+  - first:
+      213: 7964117244550634059
+    second: squirrel sprites_310
+  - first:
+      213: -3147096494592937778
+    second: squirrel sprites_311
+  - first:
+      213: 5712029969564319562
+    second: squirrel sprites_312
+  - first:
+      213: -650782486194282928
+    second: squirrel sprites_313
+  - first:
+      213: 8460861976839583437
+    second: squirrel sprites_314
+  - first:
+      213: 1652196720051277690
+    second: squirrel sprites_315
+  - first:
+      213: 2036740466131729386
+    second: squirrel sprites_316
+  - first:
+      213: 106080343430009113
+    second: squirrel sprites_317
+  - first:
+      213: 8391944149844758764
+    second: squirrel sprites_318
+  - first:
+      213: -8147370517758257307
+    second: squirrel sprites_319
+  - first:
+      213: 8739978990945804044
+    second: squirrel sprites_320
+  - first:
+      213: 8054956444826162303
+    second: squirrel sprites_321
+  - first:
+      213: -8114890534228029182
+    second: squirrel sprites_322
+  - first:
+      213: 4178684632418032062
+    second: squirrel sprites_323
+  - first:
+      213: 4297115255164398134
+    second: squirrel sprites_324
+  - first:
+      213: 394230929071109352
+    second: squirrel sprites_325
+  - first:
+      213: -5367478813585354791
+    second: squirrel sprites_326
+  - first:
+      213: 3937153089188749446
+    second: squirrel sprites_327
+  - first:
+      213: -6997210823751759831
+    second: squirrel sprites_328
+  - first:
+      213: -7401846827681113619
+    second: squirrel sprites_329
+  - first:
+      213: -688274063943662308
+    second: squirrel sprites_330
+  - first:
+      213: -5580281677895636680
+    second: squirrel sprites_331
+  - first:
+      213: 319651734945536815
+    second: squirrel sprites_332
+  - first:
+      213: -5708777033050778138
+    second: squirrel sprites_333
+  - first:
+      213: -1318796523341006660
+    second: squirrel sprites_334
+  - first:
+      213: -4260233003677467541
+    second: squirrel sprites_335
+  - first:
+      213: 6594255333557236844
+    second: squirrel sprites_336
+  - first:
+      213: 8005788433627286351
+    second: squirrel sprites_337
+  - first:
+      213: -1852163425350399614
+    second: squirrel sprites_338
+  - first:
+      213: 3521786850084704345
+    second: squirrel sprites_339
+  - first:
+      213: 3478009087132908206
+    second: squirrel sprites_340
+  - first:
+      213: 1124955399993482005
+    second: squirrel sprites_341
+  - first:
+      213: -4506192753192177383
+    second: squirrel sprites_342
+  - first:
+      213: 3695059528047783837
+    second: squirrel sprites_343
+  - first:
+      213: -7467729955864498632
+    second: squirrel sprites_344
+  - first:
+      213: 1773329869439897072
+    second: squirrel sprites_345
+  - first:
+      213: -7018449318137179526
+    second: squirrel sprites_346
+  - first:
+      213: 463266554055643236
+    second: squirrel sprites_347
+  - first:
+      213: 7468238668168385956
+    second: squirrel sprites_348
+  - first:
+      213: 8796784266202270492
+    second: squirrel sprites_349
+  - first:
+      213: 1639334088483020331
+    second: squirrel sprites_350
+  - first:
+      213: -7632541811214614438
+    second: squirrel sprites_351
+  - first:
+      213: -2575513402983462717
+    second: squirrel sprites_352
+  - first:
+      213: 6118160038344373493
+    second: squirrel sprites_353
+  - first:
+      213: 1022299553680761838
+    second: squirrel sprites_354
+  - first:
+      213: -5835627711580985528
+    second: squirrel sprites_355
+  - first:
+      213: 443008463279054574
+    second: squirrel sprites_356
+  - first:
+      213: 9118010838357305308
+    second: squirrel sprites_357
+  - first:
+      213: -4436803322535946401
+    second: squirrel sprites_358
+  - first:
+      213: 5238444994334795535
+    second: squirrel sprites_359
+  - first:
+      213: 5552412094740011134
+    second: squirrel sprites_360
+  - first:
+      213: 355171866927118919
+    second: squirrel sprites_361
+  - first:
+      213: -1538804624386114279
+    second: squirrel sprites_362
+  - first:
+      213: 3885265277816645289
+    second: squirrel sprites_363
+  - first:
+      213: 8288869237334470609
+    second: squirrel sprites_364
+  - first:
+      213: -2643269798572099169
+    second: squirrel sprites_365
+  - first:
+      213: 4268137127248250093
+    second: squirrel sprites_366
+  - first:
+      213: 6011603051354820942
+    second: squirrel sprites_367
+  - first:
+      213: -6430072090824670886
+    second: squirrel sprites_368
+  - first:
+      213: 1411802688127871865
+    second: squirrel sprites_369
+  - first:
+      213: -1311658369919491594
+    second: squirrel sprites_370
+  - first:
+      213: 1378579003943452568
+    second: squirrel sprites_371
+  - first:
+      213: -372814379268319965
+    second: squirrel sprites_372
+  - first:
+      213: 8897037696134509250
+    second: squirrel sprites_373
+  - first:
+      213: -7589865786930704330
+    second: squirrel sprites_374
+  - first:
+      213: 8132090010330981969
+    second: squirrel sprites_375
+  - first:
+      213: 3169467200830094054
+    second: squirrel sprites_376
+  - first:
+      213: -5023429006014230032
+    second: squirrel sprites_377
+  - first:
+      213: -5034014878478951471
+    second: squirrel sprites_378
+  - first:
+      213: -7717799978357848609
+    second: squirrel sprites_379
+  - first:
+      213: 6426906505732899332
+    second: squirrel sprites_380
+  - first:
+      213: -3306792853391391815
+    second: squirrel sprites_381
+  - first:
+      213: 6704251061070422443
+    second: squirrel sprites_382
+  - first:
+      213: 1633901798133300796
+    second: squirrel sprites_383
+  - first:
+      213: 2360930578668414202
+    second: squirrel sprites_384
+  - first:
+      213: -160410606825789465
+    second: squirrel sprites_385
+  - first:
+      213: -6741964478233464012
+    second: squirrel sprites_386
+  - first:
+      213: -1719193576145422398
+    second: squirrel sprites_387
+  - first:
+      213: 1913177125933677771
+    second: squirrel sprites_388
+  - first:
+      213: -5418640280949576294
+    second: squirrel sprites_389
+  - first:
+      213: 1703396899653881549
+    second: squirrel sprites_390
+  - first:
+      213: -3924698120758721845
+    second: squirrel sprites_391
+  - first:
+      213: -5447872361529751765
+    second: squirrel sprites_392
+  - first:
+      213: 484749072756327587
+    second: squirrel sprites_393
+  - first:
+      213: -9207509904781008844
+    second: squirrel sprites_394
+  - first:
+      213: 550298480477491193
+    second: squirrel sprites_395
+  - first:
+      213: 9181479378153795424
+    second: squirrel sprites_396
+  - first:
+      213: 2084080847957356922
+    second: squirrel sprites_397
+  - first:
+      213: 8500399975507181963
+    second: squirrel sprites_398
+  - first:
+      213: 450238790502567462
+    second: squirrel sprites_399
+  - first:
+      213: -2384527701171980826
+    second: squirrel sprites_400
+  - first:
+      213: 8700634456913269962
+    second: squirrel sprites_401
+  - first:
+      213: 4917976213153501739
+    second: squirrel sprites_402
+  - first:
+      213: -3983777445812058510
+    second: squirrel sprites_403
+  - first:
+      213: 2086788102706103025
+    second: squirrel sprites_404
+  - first:
+      213: -845866040875018035
+    second: squirrel sprites_405
+  - first:
+      213: -242716154539695336
+    second: squirrel sprites_406
+  - first:
+      213: -2688609457318648610
+    second: squirrel sprites_407
+  - first:
+      213: -819042912915018638
+    second: squirrel sprites_408
+  - first:
+      213: 7185226465325688408
+    second: squirrel sprites_409
+  - first:
+      213: -1984918609198319241
+    second: squirrel sprites_410
+  - first:
+      213: -2239984632335712516
+    second: squirrel sprites_411
+  - first:
+      213: 6786981342819296003
+    second: squirrel sprites_412
+  - first:
+      213: -1562316897295230506
+    second: squirrel sprites_413
+  - first:
+      213: -8719344688307080382
+    second: squirrel sprites_414
+  - first:
+      213: 7273534180787914701
+    second: squirrel sprites_415
+  - first:
+      213: -8389036205687127565
+    second: squirrel sprites_416
+  - first:
+      213: -5462664351269261240
+    second: squirrel sprites_417
+  - first:
+      213: -4931358664197920231
+    second: squirrel sprites_418
+  - first:
+      213: 2537888053408354979
+    second: squirrel sprites_419
+  - first:
+      213: -6201201464767947817
+    second: squirrel sprites_420
+  - first:
+      213: -4900678204963004838
+    second: squirrel sprites_421
+  - first:
+      213: 6519718408377701032
+    second: squirrel sprites_422
+  - first:
+      213: 7874929060132148833
+    second: squirrel sprites_423
+  - first:
+      213: -2237867235894535746
+    second: squirrel sprites_424
+  - first:
+      213: 1824498738081926508
+    second: squirrel sprites_425
+  - first:
+      213: 2677146030269605050
+    second: squirrel sprites_426
+  - first:
+      213: -797149138792950055
+    second: squirrel sprites_427
+  - first:
+      213: -4031451531307597189
+    second: squirrel sprites_428
+  - first:
+      213: -6277316157802383496
+    second: squirrel sprites_429
+  - first:
+      213: 3160522059448327286
+    second: squirrel sprites_430
+  - first:
+      213: -1051540608275978583
+    second: squirrel sprites_431
+  - first:
+      213: -5143848158010610029
+    second: squirrel sprites_432
+  - first:
+      213: 7838948911218127326
+    second: squirrel sprites_433
+  - first:
+      213: -1040871767906999493
+    second: squirrel sprites_434
+  - first:
+      213: 3821393020443733592
+    second: squirrel sprites_435
+  - first:
+      213: 3429532023637024239
+    second: squirrel sprites_436
+  - first:
+      213: 3509884206207728615
+    second: squirrel sprites_437
+  - first:
+      213: -7316626547532014330
+    second: squirrel sprites_438
+  - first:
+      213: -8862607251659275480
+    second: squirrel sprites_439
+  - first:
+      213: 4053227739630066544
+    second: squirrel sprites_440
+  - first:
+      213: -4306738134122091115
+    second: squirrel sprites_441
+  - first:
+      213: -8875082649034912623
+    second: squirrel sprites_442
+  - first:
+      213: 3215830901413607794
+    second: squirrel sprites_443
+  - first:
+      213: 5639341101019224519
+    second: squirrel sprites_444
+  - first:
+      213: 3803194994840209099
+    second: squirrel sprites_445
+  - first:
+      213: -2772326020272825406
+    second: squirrel sprites_446
+  - first:
+      213: -914500640122396507
+    second: squirrel sprites_447
+  - first:
+      213: 1046302764079213127
+    second: squirrel sprites_448
+  - first:
+      213: -1368563649928059958
+    second: squirrel sprites_449
+  - first:
+      213: -3210719057771665379
+    second: squirrel sprites_450
+  - first:
+      213: 7022756168597287142
+    second: squirrel sprites_451
+  - first:
+      213: -5902328318444012053
+    second: squirrel sprites_452
+  - first:
+      213: 541866819819629258
+    second: squirrel sprites_453
+  - first:
+      213: 432494745085400556
+    second: squirrel sprites_454
+  - first:
+      213: -6889164653946945905
+    second: squirrel sprites_455
+  - first:
+      213: -7999326643020334351
+    second: squirrel sprites_456
+  - first:
+      213: 7722980239849154104
+    second: squirrel sprites_457
+  - first:
+      213: 5015747084351695747
+    second: squirrel sprites_458
+  - first:
+      213: 2911876177639020011
+    second: squirrel sprites_459
+  - first:
+      213: -7600444517897827758
+    second: squirrel sprites_460
+  - first:
+      213: 8910215916055280244
+    second: squirrel sprites_461
+  - first:
+      213: -4785945635889418353
+    second: squirrel sprites_462
+  - first:
+      213: 5722020913892908122
+    second: squirrel sprites_463
+  - first:
+      213: -3457872385645260571
+    second: squirrel sprites_464
+  - first:
+      213: -5072956727897736338
+    second: squirrel sprites_465
+  - first:
+      213: 6532204802658383552
+    second: squirrel sprites_466
+  - first:
+      213: 3523602873016255718
+    second: squirrel sprites_467
+  - first:
+      213: -6424089108574754142
+    second: squirrel sprites_468
+  - first:
+      213: -2391969053942971861
+    second: squirrel sprites_469
+  - first:
+      213: 1722333295577804963
+    second: squirrel sprites_470
+  - first:
+      213: -7145629538179206294
+    second: squirrel sprites_471
+  - first:
+      213: 34011549422609466
+    second: squirrel sprites_472
+  - first:
+      213: 2701171087230260498
+    second: squirrel sprites_473
+  - first:
+      213: -8741134085110811981
+    second: squirrel sprites_474
+  - first:
+      213: 8501855473656608887
+    second: squirrel sprites_475
+  - first:
+      213: -5137702983506819894
+    second: squirrel sprites_476
+  - first:
+      213: -6067563623052050132
+    second: squirrel sprites_477
+  - first:
+      213: 6790643685933933841
+    second: squirrel sprites_478
+  - first:
+      213: -3277215682903087377
+    second: squirrel sprites_479
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: squirrel_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 680
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf53006a35005cc0800000000000000
+      internalID: -3724471143558324294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squirrel_run4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 680
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a4d5dec68357d90800000000000000
+      internalID: -7100707196989781485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squirrel_run5
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 680
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c78119b410fa7040800000000000000
+      internalID: 4646289937381033925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squirrel_run6
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 680
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc59dd508e8b5440800000000000000
+      internalID: 4925687299441253630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squirrel_idle
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 280
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecebaf6f892b9fb00800000000000000
+      internalID: 862917173666561742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squirrel_jump1
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 280
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d95dfdcd6e17270800000000000000
+      internalID: 8246626229014601041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squirrel_run1
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 280
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12548bd38a81a6ee0800000000000000
+      internalID: -1267173234282314463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squirrel_run2
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 280
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b903b8feb9434ab0800000000000000
+      internalID: -5025091674650244688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
