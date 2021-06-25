@@ -170,7 +170,7 @@ public class CharacterController : MonoBehaviour
 
         if (collision.gameObject.name == "Lake")
         {
-            isDrowning = true;
+            StartCoroutine(DelayDrown());
         }
 
         if (collision.gameObject.tag == "Fox")
@@ -187,6 +187,12 @@ public class CharacterController : MonoBehaviour
 
             }
         }
+    }
+
+    IEnumerator DelayDrown()
+    {
+        yield return new WaitForSeconds(0.3f);
+        isDrowning = true;
     }
 
     public void OnCollisionExit2D(Collision2D collision)

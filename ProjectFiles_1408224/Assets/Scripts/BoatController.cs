@@ -49,7 +49,7 @@ public class BoatController : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             
-            if (onBoat == true)
+            if (onBoat == true) //&& (CC.gameObject.transform.position.y >= transform.position.y +1))
             {
                 StartCoroutine(FreezeSquirrel());
             }

@@ -171,7 +171,7 @@ public class GameManager : MonoBehaviour
     public void EndOfGame()
     {
         CC.RemainIdle();
-        CC.enabled = false;
+        CC.gameObject.SetActive(false);
         totalAcornTally = storedAcorns + acorns;
         endUI.SetActive(true);
         finalScore.text = totalAcornTally.ToString();
