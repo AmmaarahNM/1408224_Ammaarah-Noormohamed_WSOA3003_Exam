@@ -5,18 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class StartMenu : MonoBehaviour
 {
-    public Animator squirrel;
-    // Start is called before the first frame update
-    void Start()
-    {
-        squirrel.SetInteger("AnimState", 1);
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void SceneChanger(int index)
     {

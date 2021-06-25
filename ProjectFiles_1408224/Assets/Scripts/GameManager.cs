@@ -24,12 +24,22 @@ public class GameManager : MonoBehaviour
     int acornsAtCheckpoint;
     public GameObject[]hearts = new GameObject[3];
     public GameObject[] startAcorns;
+    public GameObject acornsReleased;
+    public int totalAcornTally;
+
+    public GameObject endUI;
+    public GameObject stars;
+    public Animator starsAnim;
+    public Text endComment;
+    public Text finalScore;
+    public GameObject dieView;
 
     // Start is called before the first frame update
     void Start()
     {
         //lastCheckpoint.position = startPos.position;
         health = 3;
+        CC.enabled = true;
     }
 
     // Update is called once per frame
@@ -74,13 +84,19 @@ public class GameManager : MonoBehaviour
 
     IEnumerator Reset()
     {
-        yield return new WaitForSeconds(1);
+        CC.RemainIdle();
+        CC.enabled = false;
+        dieView.SetActive(true);
+
+        yield return new WaitForSeconds(2);
+        dieView.SetActive(false);
         foreach (GameObject acorn in startAcorns)
         {
             acorn.SetActive(true);
         }
         acorns = 0;
         CC.transform.position = lastCheckpoint.position;
+        CC.enabled = true;
         health = 3;
         foreach (GameObject heart in hearts)
         {
@@ -121,7 +137,7 @@ public class GameManager : MonoBehaviour
     }
     public void IncreaseStoredValue()
     {
-        if (storedAcorns < acornsAtCheckpoint)
+        if (acorns > 0)
         {
             storedAcorns++;
             acorns--;
@@ -145,5 +161,46 @@ public class GameManager : MonoBehaviour
         checkpointUI.SetActive(false);
         reachedCheckpoint.SetActive(false);
         CC.enabled = true;
+    }
+
+    public void ReleaseAcorns()
+    {
+        acornsReleased.SetActive(true);
+    }
+
+    public void EndOfGame()
+    {
+        CC.RemainIdle();
+        CC.enabled = false;
+        totalAcornTally = storedAcorns + acorns;
+        endUI.SetActive(true);
+        finalScore.text = totalAcornTally.ToString();
+        //tally text = totalAcornTally
+        
+        if (totalAcornTally < 30)
+        {
+            stars.SetActive(true);
+            starsAnim.Play("OneStar");
+            endComment.text = "Oh no! You don't have enough acorns to progress! Try Again...";
+            //one star UI
+        }
+
+        else if (totalAcornTally >= 45)
+        {
+            stars.SetActive(true);
+            starsAnim.Play("ThreeStar");
+            endComment.text = "WELL DONE! Your family will be happily feasting in the coming days!";
+            //three star UI
+        }
+
+        else
+        {
+            
+            //two star UI
+            stars.SetActive(true);
+            starsAnim.Play("TwoStar");
+            endComment.text = "An admirable effort. Your family may have to ration, but they'll have enough food to survive";
+        }
+
     }
 }

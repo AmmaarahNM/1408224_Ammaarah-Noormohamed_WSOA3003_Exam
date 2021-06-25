@@ -5,7 +5,7 @@ using UnityEngine;
 public class CharacterController : MonoBehaviour
 {
     public Transform startPos;
-    Rigidbody2D playerRB;
+    public Rigidbody2D playerRB;
     Animator animator;
 
     public int speed;
@@ -21,6 +21,7 @@ public class CharacterController : MonoBehaviour
     public bool canEatAcorns = false;
     public bool acornIngested = false;
     public bool isDrowning;
+    public GameObject acornEaten;
 
     // Start is called before the first frame update
     void Start()
@@ -48,7 +49,7 @@ public class CharacterController : MonoBehaviour
                     playerRB.velocity = new Vector2(playerRB.velocity.x, 10);
                     animator.SetInteger("AnimState", 2);
                     acornIngested = false;
-                    //deactivateUI
+                    acornEaten.SetActive(false);
                 }
 
             }
@@ -114,7 +115,7 @@ public class CharacterController : MonoBehaviour
         {
             acornIngested = true;
             GM.acorns--;
-            //activate UI to say you've eaten an acorn
+            acornEaten.SetActive(true);
             Debug.Log("eaten an acorn");
         }
 
@@ -151,7 +152,7 @@ public class CharacterController : MonoBehaviour
 
             if (collision.gameObject.tag == "Fox") // also if grounded?
         {
-            GM.LoseHealth();
+           /* GM.LoseHealth();
             if (collision.gameObject.transform.position.x > transform.position.x)
             {
                 //transform.position = new Vector3(transform.position.x - 1, transform.position.y, 0);
@@ -164,7 +165,7 @@ public class CharacterController : MonoBehaviour
                 //transform.position = new Vector3(transform.position.x + 1, transform.position.y, 0);
                 playerRB.velocity = new Vector2(3, playerRB.velocity.y);
 
-            }
+            }*/
         }
 
         if (collision.gameObject.name == "Lake")
@@ -230,6 +231,11 @@ public class CharacterController : MonoBehaviour
             GM.EatExplanation();
             collision.gameObject.SetActive(false);
             Debug.Log("Reached eat trigger");
+        }
+
+        if (collision.gameObject.tag == "End")
+        {
+            GM.EndOfGame();
         }
     }
 

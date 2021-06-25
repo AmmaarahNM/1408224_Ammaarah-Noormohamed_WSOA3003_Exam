@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Checkpoint : MonoBehaviour
 {
     public GameManager GM;
-    public Transform resetPoint;
+    //public Transform resetPoint;
     //public CharacterController CC;
     
  
@@ -33,7 +33,7 @@ public class Checkpoint : MonoBehaviour
 
             if (thisOneVisited == false)
             {
-                GM.lastCheckpoint.position = resetPoint.position;
+                GM.lastCheckpoint.position = collision.gameObject.transform.position;
                 GM.reachedCheckpoint.SetActive(true);
           
                 thisOneVisited = true;

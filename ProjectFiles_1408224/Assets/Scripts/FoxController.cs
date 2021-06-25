@@ -16,6 +16,8 @@ public class FoxController : MonoBehaviour
     public GameObject player;
     public Animator anim;
     bool isDead;
+    public GameManager GM;
+    public CharacterController CC;
     //private Animator animator;
     //private AudioSource attackSound;
 
@@ -32,7 +34,7 @@ public class FoxController : MonoBehaviour
     {
         if (isDead == false)
         {
-            if (Vector3.Distance(transform.position, player.transform.position) < seenDistance)
+            if ((Vector3.Distance(transform.position, player.transform.position) < seenDistance) && player.transform.position.y < transform.position.y)
             {
                 isPlayerSeen = true;
             }
@@ -111,7 +113,9 @@ public class FoxController : MonoBehaviour
 
     IEnumerator DelayDeath()
     {
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(1.2f);
+        GM.ReleaseAcorns();
+        yield return new WaitForSeconds(0.3f);
         //activate a bunch of acorns and the animation for them dropping - call from GM
         gameObject.SetActive(false);
     }
@@ -123,12 +127,26 @@ public class FoxController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Player" && player.transform.position.y < transform.position.y)
         {
             speed = 0;
             anim.Play("foxAttack");
             //player loses health - PUT THIS IN CHARACTER CONTROLLER THOUGH
             //attackSound.Play();
+            GM.LoseHealth();
+            if (collision.gameObject.transform.position.x > transform.position.x)
+            {
+                //transform.position = new Vector3(transform.position.x - 1, transform.position.y, 0);
+                CC.playerRB.velocity = new Vector2(-3, CC.playerRB.velocity.y);
+
+            }
+
+            else
+            {
+                //transform.position = new Vector3(transform.position.x + 1, transform.position.y, 0);
+                CC.playerRB.velocity = new Vector2(3, CC.playerRB.velocity.y);
+
+            }
             StartCoroutine("ResumeSpeed");
         }
 
@@ -137,7 +155,7 @@ public class FoxController : MonoBehaviour
     private IEnumerator ResumeSpeed()
     {
         yield return new WaitForSeconds(1);
-        speed = 2;
+        speed = 4;
         anim.Play("foxWalk");
     }
 }
